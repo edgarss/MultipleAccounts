@@ -1,0 +1,12 @@
+sources:
+  - MultipleAccounts/Sources
+templates:
+  - tools/sourcery/templates
+output:
+  MultipleAccountsTests/Sources/Mocks/Sourcery 
+args:
+  autoMockableTestableImports:
+    - MultipleAccounts
+  autoMockableImports:
+    - RxSwift
+    - RxCocoa
